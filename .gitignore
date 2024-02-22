@@ -18,3 +18,5 @@ test_*.db.bak
 test_*.db.dat
 test_*.db.dir
 tests/tls/generate/gen/
+
+.pybuild/
