@@ -1,0 +1,5 @@
+python-dogpile.cache source: file-without-copyright-information
+python-dogpile.cache source: no-debian-changes
+python-dogpile.cache source: source-contains-prebuilt-windows-binary
+python-dogpile.cache source: source-is-missing
+python-dogpile.cache source: source-package-encodes-python-version

@@ -8,11 +8,11 @@ description = "A caching front-end based on the Dogpile lock."
 readme = "README.rst"
 keywords = ["caching"]
 authors = [{name = "Mike Bayer", email = "mike_mp@zzzcomputing.com"}]
-license = "MIT"
-license-files = ["LICENSE"]
+license = {text = "MIT"}
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]
@@ -127,6 +127,7 @@ mypy = [
 zip-safe = false
 include-package-data = true
 package-dir = {"" = "."}
+license-files = ["LICENSE"]
 
 [tool.setuptools.packages.find]
 exclude = [
